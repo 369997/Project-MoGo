@@ -1,0 +1,28 @@
+.design {
+  background: url(../img/design.png) center center no-repeat;
+  background-size: cover;
+
+
+
+
+  &__wrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__items {
+    position: relative;
+  }
+
+  &__planshet {
+    margin: -10px;
+  }
+
+
+  &__tel {
+    position: absolute;
+    bottom: -70px;
+    right: -100px;
+  }
+
+}

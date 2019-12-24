@@ -1,0 +1,13 @@
+.btn {
+  padding: 12px 30px;
+  background-color: transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: $main;
+  font-size: 14px;
+  font-weight: bold;
+  color: $accent;
+  outline: none;
+  border: 6px solid #fff;
+  transition: 0.3s all;
+}

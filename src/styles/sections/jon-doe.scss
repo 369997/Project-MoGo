@@ -1,0 +1,68 @@
+.jon-doe {
+  margin-top: 190px;
+
+  &__items {
+    height: 150px;
+
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  &__arrow {
+    color: #cccccc;
+    font-size: 25px;
+    position: absolute;
+    top: 40px;
+  }
+
+  &__icon {
+    font-size: 100px;
+    position: absolute;
+    left: 70px;
+    top: 20px;
+  }
+
+  &__text {
+    max-width: 890px;
+    font-size: 24px;
+    font-family: $main;
+    color: #999999;
+    line-height: 1.5;
+    position: absolute;
+    left: 230px;
+  }
+
+  &__lastarrow {
+    color: #cccccc;
+    font-size: 25px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+  }
+
+  &__p {
+    font-size: 24px;
+    font-family: $titles;
+    color: #000;
+    padding-left: 80px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 48px;
+      width: 60px;
+      border-bottom: 3px solid red;
+
+      left: 4%;
+      transform: translateX(-50%);
+    }
+
+  }
+}

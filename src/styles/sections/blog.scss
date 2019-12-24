@@ -1,0 +1,84 @@
+.blog {
+
+  &__wrap {
+display: flex;
+justify-content: space-between;
+  }  
+
+  &__first {
+    width: 400px;
+    height: 390px;
+
+  }
+
+  &__pic {
+position: relative;
+
+  }
+
+  &__date {
+      width: 60px;
+      height: 80px;
+      background-color: $primary;
+      position: absolute;
+      bottom: 4px;
+      left: -7px;
+  }
+
+    &__number, &__month {
+      color: #fff;
+      text-align: center;
+  }
+
+  &__number {
+    font-size: 30px;
+    margin-top: 11px;
+    
+  }
+
+  &__month{
+    font-size: 17px;
+    font-style: italic;
+    margin-left: -9px;
+  }
+
+  &__h4 {
+      text-transform: uppercase;
+      color: #333333;
+
+  }
+
+  &__p {
+    color: #acacac;
+    position: relative;
+
+
+    &::after {
+        content:"";
+        border-bottom: 1px solid #acacac;
+        position: absolute;
+        width: 90%;
+        left: 0;
+        bottom: -20px;
+    }
+  }
+
+  &__list{
+    margin-top: 40px; 
+    margin-left: -40px;
+  }
+
+  &__items{
+    display: inline;
+        
+  }
+
+  &_color {
+    color: #acacac;
+    font-size: 14px;
+    font-style: italic;
+    font-family: $main;
+    padding-right: 16px;
+  }
+ 
+}
